@@ -1,0 +1,30 @@
+Add Tom 4111111111111111 $1000
+Add Lisa 4111111111111111 $3000
+Add Quincy 4111111111111111 $2000
+Add Ernesto 4111111111111111 $1000
+Add Casco 4111111111111111 $3000
+Add Velazquez 4111111111111111 $2000
+Add Fernando 4111111111111111 $1000
+Add Guillermo 4111111111111111 $3000
+Add Alonso 4111111111111111 $2000
+Add Luis 4111111111111111 $1000
+Add Enrique 4111111111111111 $3000
+Add Bernardo 4111111111111111 $2000
+Add Isaac 4111111111111111 $2000
+Add John 4111111111111111 $2000
+Add Will 4111111111111111 $2000
+Charge Tom $5000
+Charge Lisa $8000
+Charge Quincy $7000
+Charge Ernesto $5000
+Charge Casco $8000
+Charge Velazquez $7000
+Charge Fernando $5000
+Charge Guillermo $8000
+Charge Alonso $7000
+Charge Luis $5000
+Charge Enrique $8000
+Charge Bernardo $7000
+Charge Isaac $5000
+Charge John $8000
+Charge Will $7000
