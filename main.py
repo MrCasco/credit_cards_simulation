@@ -3,10 +3,10 @@ from User import User
 from os import scandir
 
 
-def run_transactions(input):
+def run_transactions(input_file):
     users = {}
     format_quantity = lambda x: int(x.strip("$"))
-    for transaction in input:
+    for transaction in input_file:
         action, info = transaction.split(" ", 1)
         if action == "Add":
             user, card, limit = info.split()
@@ -33,11 +33,17 @@ def print_result_alphabetically(users):
 def run_tests():
     with scandir("./Tests") as files:
         for file in files:
-            input = open(file, "r")
-            results = run_transactions(input)
+            input_file = open(file, "r")
+            results = run_transactions(input_file)
             print("Output from:", file.name)
             print_result_alphabetically(results)
             print('')
+            input_file.close()
 
-
-run_tests()
+def run_specific_test(file_name):
+    file = open("./Tests/"+file_name, 'r')
+    results = run_transactions(file)
+    print("Output from:", file_name)
+    print_result_alphabetically(results)
+    print('')
+    file.close()
