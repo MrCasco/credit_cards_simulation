@@ -21,6 +21,11 @@ To install this, you only need to be inside the repo folder and run via terminal
 pip install -r requirements.txt
 ```
 
+## Pre-requisites
+
+1. Have Python 3.5 or greater installed on your machine. If you don't have it download it [here](https://www.python.org/downloads/)
+2. Have pip installed. Check whether you have it or install it? Check this guide [here](https://www.geeksforgeeks.org/download-and-install-pip-latest-version/)
+
 ## How to run the project?
 
 ### Running all tests
