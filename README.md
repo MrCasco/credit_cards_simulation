@@ -39,6 +39,14 @@ pip install -r requirements.txt
 
 0. Check you have all the necessary tools mentioned in "Pre-requirements" section above.
 1. Open your terminal and access the repo (if you do not know how, check [this guide](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/))
-2. Open your file explorer, go to the repo folder and add your file to the Tests directory
+2. Open your file explorer, go to the repo folder and add your test file (in txt format) to the Tests directory
 3. Run: `python -c "import main; main.run_specific_test('my_file.txt')"`
+4. Your output should be now printed on your cmd!
+
+### Run program as python main.py
+
+0. Check you have all the necessary tools mentioned in "Pre-requirements" section above.
+1. Open your terminal and access the repo (if you do not know how, check [this guide](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/))
+2. Open your file explorer, go to the repo folder and add your file in the same scope as the main.py. The txt file has to be strictly named "input.txt"
+3. Run: `python main.py`
 4. Your output should be now printed on your cmd!
