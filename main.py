@@ -47,3 +47,13 @@ def run_specific_test(file_name):
     print_result_alphabetically(results)
     print('')
     file.close()
+
+def run_input_txt_file():
+    file = open("input.txt", 'r')
+    results = run_transactions(file)
+    print("Output from: input.txt")
+    print_result_alphabetically(results)
+    print('')
+    file.close()
+
+run_input_txt_file()
