@@ -29,7 +29,6 @@ def print_result_alphabetically(users):
             f' - {user}: {"" if users[user].balance == "error" else "$"}{users[user].balance}'
         )
 
-
 def run_tests():
     with scandir("./Tests") as files:
         for file in files:
@@ -45,15 +44,16 @@ def run_specific_test(file_name):
     results = run_transactions(file)
     print("Output from:", file_name)
     print_result_alphabetically(results)
-    print('')
     file.close()
 
 def run_input_txt_file():
-    file = open("input.txt", 'r')
-    results = run_transactions(file)
-    print("Output from: input.txt")
-    print_result_alphabetically(results)
-    print('')
-    file.close()
+    try:
+        file = open("input.txt", 'r')
+        results = run_transactions(file)
+        print("Output from: input.txt")
+        print_result_alphabetically(results)
+        file.close()
+    except Exception as e:
+        pass
 
 run_input_txt_file()
